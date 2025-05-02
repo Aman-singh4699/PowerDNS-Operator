@@ -1,0 +1,41 @@
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: manager-role
+rules:
+- apiGroups:
+  - dns.cav.enablers.ob
+  resources:
+  - clusterrrsets
+  - clusterzones
+  - rrsets
+  - zones
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - dns.cav.enablers.ob
+  resources:
+  - clusterrrsets/finalizers
+  - clusterzones/finalizers
+  - rrsets/finalizers
+  - zones/finalizers
+  verbs:
+  - update
+- apiGroups:
+  - dns.cav.enablers.ob
+  resources:
+  - clusterrrsets/status
+  - clusterzones/status
+  - rrsets/status
+  - zones/status
+  verbs:
+  - get
+  - patch
+  - update
